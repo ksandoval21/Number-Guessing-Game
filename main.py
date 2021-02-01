@@ -7,5 +7,8 @@ while True:
     response=input("Choose a level ")
     if response == "1":
         bl.Guess.round_one()
+        bl.Guess.round_two()
     elif response =="2":
+        bl.Guess.round_one()
+    elif response =='3':
         exit()
