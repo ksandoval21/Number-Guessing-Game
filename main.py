@@ -6,9 +6,9 @@ print(Fore.LIGHTGREEN_EX +'Welcome! Try to guess the correct number to win the g
 while True:
     response=input("Choose a level ")
     if response == "1":
-        bl.Guess.round_one()
-        bl.Guess.round_two()
+        bl.round_one()
+        bl.round_two()
     elif response =="2":
-        bl.Guess.round_one()
+        bl.round_one()
     elif response =='3':
         exit()
